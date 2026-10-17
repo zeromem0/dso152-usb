@@ -8,3 +8,7 @@
 *.md
 dump/
 releases/
+
+# a copy renamed for the USB drive, kept local
+usb/DSO152_APP_V0.1.bin
+!/README.md

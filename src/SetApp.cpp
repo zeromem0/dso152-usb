@@ -78,7 +78,7 @@ static void drawNote(DSO152TFT& tft) {
             else if (Config::format == Export::DUMP) tft.print("offset, hex and text, 16 bytes a line, CRC-32");
             else                                     tft.print("Intel HEX records, each with its checksum");
             tft.setCursor(ROW_X + 6, NOTE_Y + 14);
-            tft.print("on the PC: tools/ttl_receive.ps1 -Port COMx");
+            tft.print("on the PC: tools/usb_receive.ps1 -Port COMx");
             break;
         case ROW_BLOCK:
             tft.print("the sender can send one block again on its own");

@@ -6,7 +6,7 @@
 #define VERSION_H
 
 #define FW_NAME     "USB"
-#define FW_VERSION  "0.93"
+#define FW_VERSION  "0.94"
 #define FW_DATE     __DATE__
 
 #endif

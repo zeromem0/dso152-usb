@@ -189,7 +189,7 @@ static bool serialLoop() {
     uint8_t buf[64];
     for (uint8_t k = 0; k < 32; k++) {
         int n = 0;
-        while (n < (int)sizeof(buf) && SerialUSB.available()) buf[n++] = (uint8_t)SerialUSB.read();
+        while (n < (int)sizeof(buf) && usbAvailable()) buf[n++] = (uint8_t)usbRead();
         if (!n) break;
         g_in += (uint32_t)n;
         if (g_echo) {

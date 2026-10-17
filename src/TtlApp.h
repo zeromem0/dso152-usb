@@ -2,7 +2,7 @@
 // the USB serial port, in the format set in Settings (see Export.h): raw, a
 // hex dump with a CRC-32 a block, or Intel HEX. The screen shows the CRC-32
 // of what RUN will send, to compare with that of what arrived;
-// tools/ttl_receive.ps1 -Port COMx takes it on the PC.
+// tools/usb_receive.ps1 -Port COMx takes it on the PC.
 //
 // What is sent (Source), how, and in blocks of what size, is set in Settings.
 //
